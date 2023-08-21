@@ -3,7 +3,7 @@
 }
 
 .header .logo {
-    font-family: var(--fonte-secundaria);
+    font-family: var(--fonte-primaria);
     font-size: var(--fonte-extra-grande);
     color: var(--cor-branca);
     border: 2px solid var(--cor-branca);
