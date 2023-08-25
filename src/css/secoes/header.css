@@ -127,13 +127,13 @@
     }
 
    .header nav ul {
-        display: none;        
-        background-color: var(--cor-fundo-escuro);         
+        display: none;     
+        background-color: var(--cor-branca);         
         padding: 20px;       
     }
     
     .header nav li a {
-        color: var(--cor-branca);
+        color: #000;
         text-align: center;                
         padding: 20px;
         display: block;
