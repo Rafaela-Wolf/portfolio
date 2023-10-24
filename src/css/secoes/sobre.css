@@ -28,7 +28,13 @@
 .sobre-mim .informacoes-sobre-mim p {
     font-size: 1.5rem;
     font-weight: 300;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.sobre-mim .informacoes-sobre-mim p:last-child {
+    font-size: 1rem;
+    margin-bottom: 0;
+    margin-top: 20px;
 }
 
 @media(max-width: 1280px) { 
