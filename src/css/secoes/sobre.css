@@ -1,4 +1,8 @@
 /* SOBRE MIM */
+.sobre-mim {
+    background-color: #564412;
+}
+
 .sobre-mim .imagem-sobre-mim {    
     max-width: 40%;
     padding: 0 15px;
@@ -6,13 +10,11 @@
 
 .sobre-mim .imagem-sobre-mim .img-box {
     padding: 15px;
-    border-radius: 5px;
     text-align: center;
 }
 
 .sobre-mim .imagem-sobre-mim img {
-    border: 10px solid transparent;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 .sobre-mim .informacoes-sobre-mim {    

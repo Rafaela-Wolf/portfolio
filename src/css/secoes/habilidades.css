@@ -1,10 +1,19 @@
 /* HABILIDADES */
+.habilidades {
+    background-color: #fffafa;
+}
+
 .habilidades .container-habilidades {    
     text-align: center;    
     display: flex;
     justify-content: center;    
     flex-direction: row;
     flex-wrap: wrap;
+    gap: 20px;
+}
+
+.habilidades .container h2 {
+    color: #564412;
 }
 
 .habilidades .container-habilidades .informacoes{
@@ -12,39 +21,14 @@
     padding: 40px 20px;    
 }
 
-.habilidades .container-habilidades .informacoes p,
-.habilidades .container-habilidades .informacoes h3,
 .habilidades .container-habilidades .informacoes .logo i{
     transition: all .3s ease;
     -moz-transition: all .3s ease;
     -o-transition: all .3s ease;
     -webkit-transition: all .3s ease;
-}
-
-.habilidades .container-habilidades .informacoes:hover p,
-.habilidades .container-habilidades .informacoes:hover h3,
-.habilidades .container-habilidades .informacoes:hover .logo i{
-    color: var(--cor-primaria);
-}
-
-.habilidades .container-habilidades .informacoes h3 {
-    font-size: var(--fonte-extra-grande);
-    font-weight: 500;
-    margin-bottom: 20px;
-    color: var(--cor-primaria);      
-}
-
-.habilidades .container-habilidades .informacoes p {
-    font-size: 1.8rem;
-    font-family: var(--fonte-secundaria);
-}
-
-.habilidades .container-habilidades .informacoes .fonte {
-    font-size: 1rem;
-    text-align: center;
-    padding-top: 10px;
-}
-
-.habilidades .container-habilidades .informacoes .logo i {
     font-size: 8rem;
+}
+
+.habilidades .container-habilidades .informacoes:hover .logo i{
+    color: #fff;
 }
