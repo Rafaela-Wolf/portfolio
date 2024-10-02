@@ -1,8 +1,7 @@
-/* FOOTER */
 .footer {
-    margin-top: 7rem;
+    margin: 20px;
     text-align: center;
-    background-color: #fefe00;
+    background-color: #fffafa;
 }
 
 .footer .container {

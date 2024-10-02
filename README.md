@@ -29,9 +29,11 @@ Para visualizar o portfólio localmente em seu computador, siga os passos abaixo
 1. Clone o repositório para a sua máquina:
    ```bash
    git clone https://github.com/seu-usuario/meu-portfolio.git
-Navegue até o diretório do projeto:
-cd meu-portfolio
-Abra o arquivo index.html no seu navegador preferido.
+
+2. Navegue até o diretório do projeto:
+   ```cd meu-portfolio
+
+3. Abra o arquivo index.html no seu navegador preferido.
 
 📞 Contato
 Se você quiser saber mais sobre este projeto ou entrar em contato comigo, você pode me encontrar em:
