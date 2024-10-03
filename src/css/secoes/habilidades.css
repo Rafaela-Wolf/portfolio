@@ -31,3 +31,9 @@
 .habilidades .container-habilidades .informacoes:hover .logo i{
     color: #000;
 }
+
+@media(max-width: 768px) {
+    .habilidades .container-habilidades .informacoes .logo i{
+        font-size: 5rem;
+    }
+}

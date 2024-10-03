@@ -85,3 +85,17 @@ body {
   background-color: var(--cor-secundaria);
   color: var(--cor-branca);
 }
+
+@media(max-width: 768px) {
+  .section {
+    padding: 2rem 0 2rem;
+  }
+
+  .section-title h2 {
+    font-size: var(--fonte-grande);
+  }
+
+  .botao {
+    font-size: var(--fonte-normal);
+  }
+}

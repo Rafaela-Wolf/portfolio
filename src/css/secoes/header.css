@@ -140,3 +140,13 @@
         display: block;
     }
 }
+
+@media(max-width: 600px) {
+    .header .logo {
+        font-size: var(--fonte-grande);
+    } 
+
+    .header nav li a{
+        font-size: 1.4rem;
+    }
+}

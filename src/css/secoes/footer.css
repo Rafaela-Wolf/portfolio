@@ -21,3 +21,9 @@
     color: #564412;
     font-size: 3rem;
 }
+
+@media(max-width: 768px) {
+    .footer h2 {
+        font-size: var(--fonte-normal);
+    }
+}
