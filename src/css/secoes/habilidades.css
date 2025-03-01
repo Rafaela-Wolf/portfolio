@@ -26,10 +26,11 @@
     -o-transition: all .3s ease;
     -webkit-transition: all .3s ease;
     font-size: 8rem;
+    cursor: pointer;
 }
 
 .habilidades .container-habilidades .informacoes:hover .logo i{
-    color: #000;
+    color: #696969;
 }
 
 @media(max-width: 768px) {
