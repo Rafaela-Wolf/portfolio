@@ -16,28 +16,51 @@
     border-radius: 8px;
 } */
 
-.sobre-mim .informacoes-sobre-mim {    
-    padding: 0 25px;   
-    align-self: center; 
+.sobre-mim .informacoes-sobre-mim { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: center;  
+    margin: 0 auto;
+    width: 90%;
 }
 
 .sobre-mim .informacoes-sobre-mim .botoes {
-    margin-top: 50px;
+    margin-top: 20px;
     font-weight: 500;
+}
+
+.sobre-mim .informacoes-sobre-mim p:first-child {
+    font-size: 2rem;
 }
 
 .sobre-mim .informacoes-sobre-mim p {
     font-size: 1.8rem;
-    font-weight: 300;
+    font-weight: 400;
     margin-bottom: 10px;
     line-height: 1.9;
     text-align: center;
 }
 
-.sobre-mim .informacoes-sobre-mim p:last-child {
-    font-size: 1.2rem;
-    margin-bottom: 0;
-    margin-top: 20px;
+.sobre-mim .informacoes-sobre-mim .atividades,
+.sobre-mim .informacoes-sobre-mim .resultados {
+    font-size: 1.8rem;
+    font-weight: 400;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.sobre-mim .informacoes-sobre-mim .atividades li,
+.sobre-mim .informacoes-sobre-mim .resultados li {
+    line-height: 1.8;
+}
+
+.sobre-mim .informacoes-sobre-mim .atividades li::before {
+    content: "⚡ ";
+}
+
+.sobre-mim .informacoes-sobre-mim .resultados li::before {
+    content: "🚀 ";
 }
 
 @media(max-width: 1280px) { 
@@ -68,7 +91,13 @@
         max-width: 100%;                   
     }
 
-    .sobre-mim .informacoes-sobre-mim p {
+    .sobre-mim .informacoes-sobre-mim p:first-child {
+        font-size: 1.8rem;
+    }
+
+    .sobre-mim .informacoes-sobre-mim p,
+    .sobre-mim .informacoes-sobre-mim .atividades,
+    .sobre-mim .informacoes-sobre-mim .resultados {
         font-size: 1.4rem;
     }
 }
